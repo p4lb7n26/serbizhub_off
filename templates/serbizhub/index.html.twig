@@ -1,0 +1,104 @@
+
+{% extends 'base.html.twig' %}
+
+
+{% block title %} SerbizHub Website {% endblock %}
+
+{% block body %}
+
+    <div class="card" style="max-width: 1000;">
+        <img class="card-img" height="500" src="/img/background2.jpg" alt="Card image">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        
+        <div class="card-img-overlay">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+            
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1 style="font-family:Arial Black, Gadget, sans-serif">SerbizHub Services</h1>
+                                <p style="color:black">Business Solutions</p>
+                                <p><a class="btn btn-outline-primary" href="/services" role="button">More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1 style="font-family:Arial Black, Gadget, sans-serif">moodLearning Services</h1>
+                                <p style="color:black">eLearning Solutions</p>
+                                <p><a class="btn btn-outline-primary" href="http://moodlearning.com" role="button">More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    
+
+
+    <!-- About -->
+    <div class="card text-white bg-primary mb-3" style="max-width: 1000;">
+        <img class="card-img" height="550" src="/img/aboutback.png" alt="Card image">
+        <div class="card-img-overlay">
+            <div class="row featurette" >
+                <div class="col-md-7">
+                    <img  height="400" width="500" src="/img/about.png" alt="Generic placeholder image " hspace="80" vspace="50">
+                </div>
+                <div class="col-md-5">
+                    <br> <br> <br>
+                    <h3 class="card-title">About SerbizHub Business Solutions</h3>
+                    <p class="card-text">Offered a range of business solutions under the SerbizHub brand: SerbizHub Suite, SerbizHub HelpDesk, SerbizHub Links, SerbizHub Banking, SerbizHub peopleSuite. Access to demo sites is available upon request.</p>
+                    <a href="/services"><button type="button" class="btn btn-secondary">Check out our Services</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of about-->
+
+    <!--Features-->
+    <div class="features-clean">
+        <div class="container" style="background-size:cover;background-position:bottom;background-color:#ffffff;">
+            <div class="row features">
+                <div class="col-sm-6 col-lg-4   item"><i class="material-icons" style="font-size:48px;color:#f37021">people</i>
+                    <h3 class="name">Diverse</h3>
+                    <p class="description">We have a unique perspective. The people at SerbizHub! come from a multitude of backgrounds, cultures and experiences, and amazing things happen when we work together.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4   item"><i class="material-icons" style="font-size:48px;color:#f37021">view_module</i>
+                    <h3 class="name">Modular</h3>
+                    <p class="description">We think on our feet. SerbizHub! is responsive and flexible, so whether it’s a dynamic duo or a team in full force, we offer clients what they need to get the job done, and done brilliantly.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4   item"><i class="fa fa-heart-o" style="font-size:48px;color:#f37021"></i>
+                    <h3 class="name">Passionate</h3>
+                    <p class="description">We love what we do. We believe the best work happens when you know that it’s not just work, but something that will improve other people’s lives. This is the opportunity that drives each of us at SerbizHub!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="max-width: 1000;">
+    <img class="card-img" height="70" src="/img/orange1.png" alt="Card image">
+    </div>
+    <!--end of features-->
+
+    
+
+{% endblock %}
+
+

@@ -1,0 +1,9 @@
+/* Style the buttons */
+.a {
+  color:red;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .a:hover {
+  color: black;
+}
